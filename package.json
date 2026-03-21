@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a tutorial to refresh my backend knowlodge",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominicjohnnybosco/backend.git"
+  },
+  "author": "Dubem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominicjohnnybosco/backend/issues"
+  },
+  "homepage": "https://github.com/dominicjohnnybosco/backend#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.1",
+    "nodemon": "^3.1.14"
+  }
+}
